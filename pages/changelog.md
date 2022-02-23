@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Articles
-permalink: /archive/
+title: Changelog posts
+permalink: /changelog/
 ---
-# News Archive
+# Changelog
 
 {% for post in site.posts  %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 

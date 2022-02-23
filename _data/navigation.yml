@@ -1,4 +1,4 @@
-- title: About
-  url: about
-- title: Documentation
-  url: docs
+- title: Cloud Service
+  url: docs/cs/intro
+- title: On Premise Service
+  url: docs/ops/intro

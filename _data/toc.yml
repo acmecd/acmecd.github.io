@@ -1,23 +1,80 @@
-- title: Documentation
-  url: docs
+- title: Assignment Info
+  url: assignment
+- title: Intro
+  url: docs/getting-started/intro
+- title: Quick Start Guide
+  url: docs/getting-started/qsg
+- title: FAQ & Glossary
+  url: docs/faq
+- title: On Premise Service
+  url: docs/ops/intro
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "Service Management"
+      url: "docs/ops/opsmanage"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
+        - title: How to Deploy
+          url: "docs/ops/deploy"
+        - title: How to Update
+          url: "docs/ops/update"
+    - title: "Data Map Building"
+      url: "docs/ops/datamap"
+      children:
+        - title: Protocols
+          url: "docs/ops/protocols"
+        - title: Formats
+          url: "docs/ops/formats"
+    - title: "Master Data Source"
+      url: "docs/ops/masterds"
+      children:
+        - title: ACME Master Data
+          url: "docs/ops/masterds/acme_master_data"
+        - title: ACME MD Registering API
+          url: "docs/ops/masterds/api_data_reg"
+        - title: ACME MD Managing API
+          url: "docs/ops/masterds/api_data_mng"
+        - title: ACME MD Callbacks Registering API
+          url: "docs/ops/masterds/api_clbk_reg"
+        - title: ACME MD and Callbacks Direct Managing API
+          url: "docs/ops/masterds/api_mdata_clbk_dirmng"
+        - title: ACME MD and Callbacks Direct Managing SDK
+          url: "docs/ops/masterds/sdk_mdata_clbk_dirmng"
+        - title: ACME Types Management UI
+          url: "docs/ops/masterds/gui_types_mng"
+- title: Cloud Service
+  url: docs/cs/intro
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+    - title: "UI Overview"
+      url: "docs/cs/ui"
+    - title: "Data Map Visualization"
+      url: "docs/cs/datamapvis"
+    - title: "Types and Subtypes"
+      url: "docs/cs/types"
+    - title: "Objects"
+      url: "docs/cs/objects"
+      children:
+          - title: Inconsistencies Monitoring
+            url: "docs/cs/objects-incons"
+          - title: "Golden Records"
+            url: "docs/cs/objects-golden"
+    - title: "Dashboards"
+      url: "docs/cs/dashboards"
+      children:
+          - title: Dashboard One
+            url: "docs/cs/db/db_one"
+          - title: Dashboard Two
+            url: "docs/cs/db/db_two"
+          - title: Custom Dashboard
+            url: "docs/cs/db/db_custom"
+- title: Tutorials
+  url: docs/tuts/intro
+  links:
+    - title: "Tutorial A"
+      url: "docs/tuts/tut_a"
+    - title: "Tutorial B"
+      url: "docs/tuts/tut_b"
+- title: "Troubleshooting"
+  url: "docs/troubleshooting"
+- title: "Changelog"
+  url: "changelog"
+- title: "Tags Page"
+  url: "tags"

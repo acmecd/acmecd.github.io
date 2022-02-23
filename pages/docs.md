@@ -6,6 +6,8 @@ permalink: /docs/
 
 # Documentation
 
+{% include alert.html type="info" title="" content="Jekyll theme default" %}
+
 Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
 particular page.
 
